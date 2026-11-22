@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Midnight Gallery — a one-room museum heist</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #0a0c18; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; }
+  canvas {
+    width: min(100vw, 1280px);
+    height: auto;
+    max-height: 100vh;
+    aspect-ratio: 1280 / 800;
+    background: #1b1e33;
+    display: block;
+  }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="800"></canvas>
+<script src="src/config.js"></script>
+<script src="src/audio.js"></script>
+<script src="src/input.js"></script>
+<script src="src/world.js"></script>
+<script src="src/guards.js"></script>
+<script src="src/cameras.js"></script>
+<script src="src/player.js"></script>
+<script src="src/render.js"></script>
+<script src="src/scenes.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>
